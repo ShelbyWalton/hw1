@@ -13,9 +13,7 @@ p1 = input("What is the position of the first switch (up/down)?")
 p2 = input("What is the position of the second switch (up/down)?")
 p3 = input("What is the position of the third switch (up/down)?")
 z = x + y == "36"
-a = (p1 == "up" and p2 == "down" and p3 == "up") or \
-    (p1 == "up" and p2 == "up" and p3 == "down") or \
-    (p1 == "down" and p2 == "up" and p3 == "up") 
+a = (p1 == "up" and p2 == "down" and p3 == "up") or (p1 == "up" and p2 == "up" and p3 == "down") or (p1 == "down" and p2 == "up" and p3 == "up") 
 if z and a:
     print("The lock opens!")
 elif z or a:
