@@ -1,0 +1,14 @@
+"""
+File:    favorite things.py
+Author:  Shelby Walton
+Date:    9/12/25
+Section: CMSC 201......30
+E-mail:  w100@umbc.edu
+Description: Practice with printing, getting user input, and operations on variables
+"""
+Name= input("What is your name?:")
+subject= input("Pick a subject:")
+adjective= input("Pick an adjective:")
+verb= input("Pick a verb:")
+noun= input("Pick a noun:")
+print("Hello",Name,"we are going to have an amazing semester learning", subject, "it's going to be", adjective, "so don't worry if you need", verb,"from a ", noun,".")

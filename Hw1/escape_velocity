@@ -1,0 +1,21 @@
+"""
+File:    favorite things.py
+Author:  Shelby Walton
+Date:    9/12/25
+Section: CMSC 201......30
+E-mail:  w100@umbc.edu
+Description: Practice with printing, getting user input, and operations on variables
+"""
+
+body= input("What body you launching from?")
+if body== "Earth":
+    G= 6,67*10**-11
+mass= float(input("What is the coeffcient mass of the object in kg?:"))
+mass_exponent= int(input("What is the mass exponent?:"))   
+radius= float(input("What is the radius coeffcient of the body in meters?:"))  
+exponent= int(input("What is the radius exponent?:"))
+v=sqrt((2*G*mass)/(radius))
+print("The escape velocity from", v," m/s")
+
+      
+ 
